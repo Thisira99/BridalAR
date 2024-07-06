@@ -1,0 +1,40 @@
+{
+    "name": "Unity.AR.Companion.Core",
+    "references": [
+        "Unity.Properties",
+        "Unity.XRTools.Utils",
+        "Unity.TextMeshPro",
+        "Unity.MARS.Interfaces",
+        "Unity.ListViewFramework",
+        "Unity.MARS",
+        "Unity.XRTools.ModuleLoader.Interfaces",
+        "Unity.RuntimeSceneSerialization",
+        "Unity.EditorXR",
+        "Unity.XRTools.ModuleLoader",
+        "Unity.EditorXR.Interfaces",
+        "Unity.Serialization",
+        "Unity.Collections",
+        "Unity.DeltaDNA.SDK",
+        "Unity.SharpZipLib"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.mars",
+            "expression": "1.0",
+            "define": "INCLUDE_MARS"
+        },
+        {
+            "name": "com.unity.sharp-zip-lib",
+            "expression": "1.3",
+            "define": "UNITY_SHARPZIPLIB_1_3_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

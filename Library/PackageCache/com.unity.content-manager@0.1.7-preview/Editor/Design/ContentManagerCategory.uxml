@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="ContentManager.uss" />
+    <ui:VisualElement class="category">
+        <ui:VisualElement class="category-icon" style="background-image: url(&apos;/Packages/com.unity.content-manager/Editor/Textures/IconGrid.png&apos;);" />
+        <ui:Label text="Label" name="CategoryLabel" class="category-label" />
+    </ui:VisualElement>
+</ui:UXML>

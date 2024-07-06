@@ -1,0 +1,5 @@
+{
+	"displayName": "Sample Face Provider",
+	"description": "Example code that imitates a face tracking provider",
+	"createSeparatePackage": true
+}

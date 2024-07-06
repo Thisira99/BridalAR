@@ -1,0 +1,25 @@
+{
+  "name": "com.unity.xr-content.template-mars-platformer",
+  "version": "1.0.0",
+  "displayName": "Unity MARS Platformer Template",
+  "description": "A collection of pre-authored Unity scenes and support scripts. These templates represent a complete set up for a dynamic AR platforming game.",
+  "unity": "2019.3",
+  "unityRelease": "0f6",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Unity MARS Platformer Template",
+      "description": "The content associated with the Unity MARS Platformer Template.  This is installed into the project folder.",
+      "path": "UnityPackage~/",
+      "interactiveImport": true
+    }
+  ],
+  "upmCi": {
+    "footprint": "7895a51bda924a36689d4f5df8f6e54fc4b300cc"
+  },
+  "repository": {
+    "url": "git@github.com:Unity-Technologies/com.unity.xr-content.template-mars-platformer.git",
+    "type": "git",
+    "revision": "092a335a50ffeb2beba16a803c194a8081941e6d"
+  }
+}

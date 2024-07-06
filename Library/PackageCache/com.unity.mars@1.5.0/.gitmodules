@@ -1,0 +1,3 @@
+[submodule "LocalContentPacks~/com.unity.mars.tutorials"]
+	path = LocalContentPacks~/com.unity.mars.tutorials
+	url = git@github.cds.internal.unity3d.com:unity/com.unity.mars.tutorials.git

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba36a03cc179e4d42a247ee25fcb5896, type: 3}
+  m_Name: MarsTutorials
+  m_EditorClassIdentifier: 
+  m_DisplayName: Unity MARS Tutorials
+  m_PackageName: com.unity.mars.tutorials
+  m_Url: Packages/com.unity.mars/LocalContentPacks~/com.unity.mars.tutorials
+  m_InstallType: 0
+  m_Description: A collection of interactive in-Editor tutorials for Unity MARS.
+  m_Category: tutorials
+  m_PreviewLabel: 
+  m_PreviewImage: {fileID: 2800000, guid: d04dc14aefa665245ae63a60f7aace0d, type: 3}
+  m_Version: 0.1.0
+  m_Created:
+    m_Ticks: 637788384000000000
+  m_Updated:
+    m_Ticks: 637788384000000000
+  m_InstallByDefault: 1

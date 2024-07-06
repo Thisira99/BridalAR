@@ -1,0 +1,31 @@
+{
+  "name": "com.unity.mars",
+  "version": "1.5.0",
+  "displayName": "Unity MARS",
+  "description": "MARS is a Unity extension that streamlines current Unity functionality and adds new functionality to support augmented and mixed reality creation. MARS can be used in the Editor and in Player builds, or be embedded in native apps using Unity as a Library.",
+  "unity": "2019.4",
+  "unityRelease": "15f1",
+  "dependencies": {
+    "com.unity.xrtools.utils": "1.4.1",
+    "com.unity.xrtools.module-loader": "1.4.1",
+    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.timeline": "1.2.18",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.video": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Sample Face Provider",
+      "description": "Example code that imitates a face tracking provider",
+      "path": "Samples~/SampleFaceProvider"
+    }
+  ],
+  "upmCi": {
+    "footprint": "ab5add53a506071ad1fdb63bfd54187c950f7798"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.mars.git",
+    "type": "git",
+    "revision": "3b2c90633ae42f472fbff4cded002ec2b5721c29"
+  }
+}

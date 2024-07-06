@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="ContentManager.uss" />
+    <ui:VisualElement name="WindowCanvas" class="deep-background" style="min-width: 520px; min-height: 530px; flex-direction: row;">
+        <ui:VisualElement name="Categories" class="flat-border raised-background" style="min-width: 185px;">
+            <ui:VisualElement name="ProductEntry" class="flat-border" style="height: 50px; min-height: 50px;">
+                <ui:VisualElement name="ProductDetail" style="margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;">
+                    <ui:VisualElement name="ProductIcon" />
+                    <ui:VisualElement name="ProductData">
+                        <ui:Label text="Loading..." name="ProductName" />
+                        <ui:Label text="..." name="ProductDescription" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ProductArrow" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ScrollView name="CategoryList" style="padding-left: 8px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentOverview" class="deep-background" style="display: flex;">
+            <ui:ScrollView name="ContentList">
+                <ui:VisualElement name="ContentListWrapper" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentDetail" class="flat-border deep-background" style="overflow: hidden; position: relative; display: flex; width: auto;">
+            <ui:Button text="&lt;" display-tooltip-when-elided="true" name="BackButton" style="-unity-font-style: bold; overflow: visible; flex-basis: 20px; height: 20px; border-bottom-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-left-color: rgba(255, 255, 255, 0); -unity-text-align: middle-left; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; min-width: 100px;">
+                <ui:Label text="Back Button Label" display-tooltip-when-elided="true" name="BackButtonLabel" style="padding-left: 10px; -unity-text-align: lower-left; padding-top: 1px;" />
+            </ui:Button>
+            <ui:VisualElement name="ImagecontainerVisualElement" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="ContentImage" class="deep-background" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ContentDescription" class="flat-border">
+                <ui:VisualElement name="ContentMetadata">
+                    <ui:Label text="Display Name" name="DescriptionName" />
+                    <ui:Label text="Package Name" name="DescriptionPackage" />
+                    <ui:Label text="Date Information" name="DescriptionDate" />
+                </ui:VisualElement>
+                <ui:ScrollView name="DescriptionScroll" class="flat-border">
+                    <ui:Label name="DescriptionHeading" text="ABOUT" />
+                    <ui:Label name="DescriptionText" text="Description" />
+                </ui:ScrollView>
+                <ui:Label text="Installs to" name="DescriptionLocation" />
+                <ui:Label name="DescriptionStatus" />
+                <ui:VisualElement name="DescriptionButtons">
+                    <ui:Button text="Cancel" name="CancelButton" class="description-button" style="display: flex;" />
+                    <ui:Button text="Uninstall" name="UninstallButton" class="description-button" style="display: flex;" />
+                    <ui:Button text="Update" name="UpdateButton" class="description-button button-primary" />
+                    <ui:Button text="Install" name="InstallButton" class="description-button button-primary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

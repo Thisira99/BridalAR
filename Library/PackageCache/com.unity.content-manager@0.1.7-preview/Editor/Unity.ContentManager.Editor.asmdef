@@ -1,0 +1,24 @@
+{
+    "name": "Unity.ContentManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Settings.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.unitywebrequest",
+            "expression": "1.0.0",
+            "define": "INCLUDE_UNITYWEBREQUEST"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.runtime-scene-serialization",
+  "displayName": "Unity Runtime Scene Serialization",
+  "version": "1.0.0-exp.3",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "description": "Serialize and deserialize a Unity scene and its GameObjects and Components using a JSON format",
+  "dependencies": {
+    "com.unity.properties": "2.0.0-exp.13",
+    "com.unity.serialization": "2.0.0-exp.13",
+    "com.unity.nuget.mono-cecil": "1.10.1"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Asset Bundles",
+      "description": "Example code that demonstrates how to use AssetBundles to provide AssetPacks to Player builds",
+      "path": "Samples~/BasicAssetBundles"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\n- Fix an issue when deserializing missing scripts with empty arrays"
+  },
+  "upmCi": {
+    "footprint": "c04899320ab6f23ef30dcb3c4e7cf2a5dd099cd8"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.runtime-scene-serialization@1.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.runtime-scene-serialization.git",
+    "type": "git",
+    "revision": "67221bebfe80dbb58032283c0bcd0b079cd61944"
+  }
+}
