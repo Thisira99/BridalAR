@@ -22,8 +22,7 @@ This project is an AR-based application designed to provide users with an intera
 - Virtual try-on of wedding dresses and jewelry
 - Customizable 3D models of dresses and jewelry
 - Capture and save snapshots of AR rendering views
-- Secure user registration and login
-
+  
 ## Requirements
 
 - Unity 2023 (or later) [Download Unity](https://unity.com/releases/editor/whats-new/2023.1.0)
@@ -40,8 +39,8 @@ Follow these steps to set up and run the project:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/virtual-wedding-dress-ar.git
-    cd virtual-wedding-dress-ar
+    git clone https://github.com/Thisira99/BridalAr
+    cd BridalAr
     ```
 
 2. **Download Unity:**
@@ -90,23 +89,17 @@ Follow these steps to set up and run the project:
 
 ## Usage
 
-1. **Register and Login:**
-
-    - Open the application on your iPhone.
-    - Register a new account with your email, username, and password.
-    - Log in with your credentials.
-
-2. **Capture Body Measurements:**
+1. **Capture Body Measurements:**
 
     - Click on the `Virtual Try-on` option to open the camera.
     - Follow the on-screen instructions to capture real-time video of your body.
 
-3. **Select Dresses and Jewelry:**
+2. **Select Dresses and Jewelry:**
 
     - Browse the Brides Gallery to select wedding dresses and jewelry.
     - Use the virtual try-on feature to see how they fit in real-time.
 
-4. **Customize and Snapshot:**
+3. **Customize and Snapshot:**
 
     - Customize the dress (e.g., color) using the customization options.
     - Take a snapshot of your AR view for future reference.
@@ -118,4 +111,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
